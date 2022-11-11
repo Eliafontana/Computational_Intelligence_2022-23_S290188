@@ -5,7 +5,7 @@ Subsequentally, over n genetation (meaning iteration on the population), mutatio
 Finally, once offspring are generated, the best elements of the whole population (old population + offspring) are choosed. The choise is made through a fitness.
 <br>
 Settings:
-* Fitness based on a priority tuple (num. of elements covered, 1/num. of repetitions), with equal  number of elements covered, the more repetitions, the lower is the fittness
+* Fitness based on a priority tuple (num. of elements covered, - num. of repetitions), with equal  number of elements covered, the more repetitions, the lower is the fittness
 * Parent selection: tournament selection, in which the best of n elements picked from the population is selected
 * Mutation: both replacement and removing of a random locus (the mutation type is selected randomly)
 * Crossover: single cut point for each of the 2 genome selected
